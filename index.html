@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New York Yankees vs Boston Red Sox</title>
+  <meta charset="utf-8">
+  <meta name="description" content="New York Yankees vs Boston Red Sox">
+  <meta name="author" content="Mark Stadtmueller">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>New York Yankees vs Boston Red Sox</h1>
+    <h2>Data Products Course</h2>
+    <p>Mark Stadtmueller<br/>Course Project</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>&quot;Baseball is ninety percent mental and the other half is physical&quot;. Yogi Berra</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Connecticut is a small state without a Major League Baseball Team and it sits right between New York City, home of the Baseball Yankees, and Boston, home of the Red Sox</p>
+
+<p><img src="assets/fig/unnamed-chunk-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Steve Rushin of Sports Illustrated has called the line running through Connecticut that separates Yankee fans and Red Sox fans the Munson-Nixon line.</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>From the NYTimes Article:  &quot;Mr. Rushin came up with the name - in honor of the late Yankee catcher Thurman Munson and the retired Red Sox right fielder Trot Nixon - in 2003, and he had to guess where the line ran: &quot;north of New Haven but south of Hartford, running the breadth of central Connecticut.&quot;</p>
+
+<p>The following is a link to the article and graphic.</p>
+
+<p><a href="http://www.nytimes.com/interactive/2014/04/23/upshot/24-upshot-baseball.html?_r=0&amp;abt=0002&amp;abg=0">http://www.nytimes.com/interactive/2014/04/23/upshot/24-upshot-baseball.html?_r=0&amp;abt=0002&amp;abg=0</a>  </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>&quot;Where have you gone, Joe DiMaggio?&quot;, Simon &amp; Garfunkel 1968</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>So growing up in Connecticut, Baseball and in particular the Yankees Red Sox Rivalry was very big.  Most people view that the Yankees had the better of the rivalry, and when it comes to championships, they have.  But, as a kid, the rivalry seemed much closer.  So, I checked wikipedia and baseballreference.com and it turns out the results are close.  They have been playing for 113 years and the Yankees have won about 52% of the games.  More, but not alot more.  So, I decided to write the shiny app to see if people could guess how many wins they Yankees have.</p>
+
+<p>So, I wrote the Shiny App:  <a href="https://jmstadt.shinyapps.io/APPNAME/">https://jmstadt.shinyapps.io/APPNAME/</a> that simply asked how many games between the two and provided the difference as a result:</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>&quot;I really don&#39;t care much about baseball, or looking at ball games, major or minor. All my interest in baseball is in its statistics.&quot; - Ernest J. Lanigan in The Baseball Cyclopedia (1922)</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code class="r">iWinsGuess &lt;- 1200
+winsDifference &lt;- iWinsGuess-1175 #used function in the shiny app
+winsDifference
+</code></pre>
+
+<pre><code>## [1] 25
+</code></pre>
+
+<p>And checking to see if friends get it right or if they are off.  In the future, it would be fun to collect the statistics on each of their guesses and draw some statistical inferences maybe based on age and whether they are a Yankees or Red Sox fan.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='&quot;Baseball is ninety percent mental and the other half is physical&quot;. Yogi Berra'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Steve Rushin of Sports Illustrated has called the line running through Connecticut that separates Yankee fans and Red Sox fans the Munson-Nixon line.'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='&quot;Where have you gone, Joe DiMaggio?&quot;, Simon &amp; Garfunkel 1968'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='&quot;I really don&#39;t care much about baseball, or looking at ball games, major or minor. All my interest in baseball is in its statistics.&quot; - Ernest J. Lanigan in The Baseball Cyclopedia (1922)'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
